@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Su001_003_water",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Su_water'",
+        "ObjectPath": "HerovsGame/Content/Supply/Model/Mat/MasterMat/M_Su_water.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Base",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.05,
+          "ExpressionGUID": "9503FBD0-411299B6-A45F8ABF-B76ACB6D"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Ex",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.25,
+          "ExpressionGUID": "BE2BA754-4C3D6D71-80293D96-F7B6757C"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Param",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.4,
+            "B": 0.1,
+            "A": 1.0,
+            "Hex": "00AA59"
+          },
+          "ExpressionGUID": "85F84C92-451CE348-C53F2383-DDF9E547"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Tint_Color",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.8,
+            "G": 4.5,
+            "B": 1.7,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          },
+          "ExpressionGUID": "D3F18354-4F71F99B-B8DADEBF-E79E50F6"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "G",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_ef_dummyWhite'",
+            "ObjectPath": "HerovsGame/Content/Effect/Common/Tex/T_ef_dummyWhite.0"
+          },
+          "ExpressionGUID": "7F785BEA-46315A59-24AFFEB4-EAB752AA"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "G2",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_ef_gradetion_11'",
+            "ObjectPath": "HerovsGame/Content/Effect/Common/Tex/T_ef_gradetion_11.0"
+          },
+          "ExpressionGUID": "06E3649F-4DC01B63-8C9E1BB3-703BBD71"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "ShadingModel": "MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_ef_SupplyBox_RGBA'",
+          "ObjectPath": "HerovsGame/Content/Supply/Effect/Tex/T_ef_SupplyBox_RGBA.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_ef_flowmap_01'",
+          "ObjectPath": "HerovsGame/Content/Effect/Common/Tex/T_ef_flowmap_01.0"
+        },
+        {
+          "ObjectName": "TextureCube'T_ef_HDRI_city004'",
+          "ObjectPath": "HerovsGame/Content/Effect/Common/Tex/T_ef_HDRI_city004.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_ef_dummyWhite'",
+          "ObjectPath": "HerovsGame/Content/Effect/Common/Tex/T_ef_dummyWhite.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_ef_dummyBlack'",
+          "ObjectPath": "HerovsGame/Content/Effect/Common/Tex/T_ef_dummyBlack.0"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]
